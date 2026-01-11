@@ -1,0 +1,6 @@
+RewriteEngine On
+
+RewriteRule ^apoteker$ master.php?menu=apoteker [L]
+RewriteRule ^obat$ master.php?menu=obat [L]
+RewriteRule ^transaksi$ master.php?menu=transaksi [L]
+RewriteRule ^riwayat$ master.php?menu=riwayat [L]
